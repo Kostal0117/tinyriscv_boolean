@@ -1,0 +1,198 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 11 15:50:56 2023
+# Process ID: 384020
+# Current directory: /mnt/hdd/Project/rtl_prj/tinyriscv
+# Command line: vivado
+# Log file: /mnt/hdd/Project/rtl_prj/tinyriscv/vivado.log
+# Journal file: /mnt/hdd/Project/rtl_prj/tinyriscv/vivado.jou
+# Running On: kostal-701PC, OS: Linux, CPU Frequency: 3100.000 MHz, CPU Physical cores: 8, Host memory: 67108 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project xilinx /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx -part xc7s50csga324-2
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/hdd/Xilinx2023_2/Vivado/2023.2/data/ip'.
+add_files -scan_for_includes {/mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/tinyriscv_core.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/sys_bus/rib.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/top/tinyriscv_soc_top.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/rom.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/divider.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_commit.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_alu_datapath.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/gpr_reg.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/gpio.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/gen_buf.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/ifu_idu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/gen_dff.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/uart.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/csr_reg.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/gen_ram.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/ifu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/pipe_ctrl.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/idu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/defines.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_muldiv.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/debug/jtag_dm.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/rst_ctrl.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/debug/jtag_top.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_dispatch.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/clint.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_mem.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/vld_rdy.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/full_handshake_tx.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/full_handshake_rx.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/idu_exu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/debug/jtag_driver.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/ram.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/timer.v}
+INFO: [filemgmt 56-200] Setting project included file '/mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/defines.v' to type 'Verilog Header'.
+import_files -force
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+import_files -fileset constrs_1 -force -norecurse /mnt/hdd/Project/rtl_prj/tinyriscv/fpga/constrs/tinyriscv.xdc
+set_property compxlib.vcs_compiled_library_dir /mnt/hdd/Xilinx2023_2/Vivado/2023.2 [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:03:00 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:03:00 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1160] Copying file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/tinyriscv_soc_top.dcp to /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:06:22 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:06:22 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/utils_1/imports/synth_1/tinyriscv_soc_top.dcp with file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/tinyriscv_soc_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:11:38 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:11:38 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7s50csga324-2
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 8202.031 ; gain = 0.000 ; free physical = 3576 ; free virtual = 48545
+INFO: [Netlist 29-17] Analyzing 439 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8276.719 ; gain = 1.000 ; free physical = 3483 ; free virtual = 48462
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8726.957 ; gain = 0.000 ; free physical = 3052 ; free virtual = 48080
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8726.957 ; gain = 0.000 ; free physical = 3051 ; free virtual = 48080
+Read PlaceDB: Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.38 . Memory (MB): peak = 8736.961 ; gain = 10.004 ; free physical = 3041 ; free virtual = 48072
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8736.961 ; gain = 0.000 ; free physical = 3041 ; free virtual = 48072
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.17 . Memory (MB): peak = 8736.961 ; gain = 0.000 ; free physical = 3038 ; free virtual = 48072
+Read Physdb Files: Time (s): cpu = 00:00:00.59 ; elapsed = 00:00:00.58 . Memory (MB): peak = 8736.961 ; gain = 10.004 ; free physical = 3038 ; free virtual = 48072
+Restored from archive | CPU: 0.620000 secs | Memory: 10.111130 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.59 ; elapsed = 00:00:00.58 . Memory (MB): peak = 8736.961 ; gain = 10.004 ; free physical = 3038 ; free virtual = 48072
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8736.961 ; gain = 0.000 ; free physical = 3037 ; free virtual = 48071
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 8961.586 ; gain = 1065.520 ; free physical = 2881 ; free virtual = 47948
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/utils_1/imports/synth_1/tinyriscv_soc_top.dcp with file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/tinyriscv_soc_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:19:38 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:19:39 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2420 ; free virtual = 47790
+INFO: [Netlist 29-17] Analyzing 439 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2414 ; free virtual = 47790
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2407 ; free virtual = 47786
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2407 ; free virtual = 47786
+Read PlaceDB: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.19 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2405 ; free virtual = 47785
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2405 ; free virtual = 47785
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2405 ; free virtual = 47785
+Read Physdb Files: Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.31 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2405 ; free virtual = 47785
+Restored from archive | CPU: 0.320000 secs | Memory: 7.917862 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.31 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2405 ; free virtual = 47785
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9154.539 ; gain = 0.000 ; free physical = 2405 ; free virtual = 47785
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {151.636} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {50.000} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.000} \
+] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+set_property generate_synth_checkpoint false [get_files  /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+generate_target all [get_files  /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+export_ip_user_files -of_objects [get_files /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.ip_user_files/sim_scripts -ip_user_files_dir /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.ip_user_files -ipstatic_source_dir /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.ip_user_files/ipstatic -lib_map_path [list {modelsim=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/modelsim} {questa=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/questa} {xcelium=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/xcelium} {vcs=/mnt/hdd/Xilinx2023_2/Vivado/2023.2} {riviera=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/utils_1/imports/synth_1/tinyriscv_soc_top.dcp with file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/tinyriscv_soc_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:27:13 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:27:13 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:28:37 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:28:37 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/utils_1/imports/synth_1/tinyriscv_soc_top.dcp with file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/tinyriscv_soc_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:32:50 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:32:50 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/utils_1/imports/synth_1/tinyriscv_soc_top.dcp with file /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/tinyriscv_soc_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Mon Dec 11 16:38:12 2023] Launched synth_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/synth_1/runme.log
+[Mon Dec 11 16:38:12 2023] Launched impl_1...
+Run output will be captured here: /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 11 18:07:07 2023...

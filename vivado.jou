@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 11 15:50:56 2023
+# Process ID: 384020
+# Current directory: /mnt/hdd/Project/rtl_prj/tinyriscv
+# Command line: vivado
+# Log file: /mnt/hdd/Project/rtl_prj/tinyriscv/vivado.log
+# Journal file: /mnt/hdd/Project/rtl_prj/tinyriscv/vivado.jou
+# Running On: kostal-701PC, OS: Linux, CPU Frequency: 3100.000 MHz, CPU Physical cores: 8, Host memory: 67108 MB
+#-----------------------------------------------------------
+start_gui
+create_project xilinx /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx -part xc7s50csga324-2
+add_files -scan_for_includes {/mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/tinyriscv_core.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/sys_bus/rib.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/top/tinyriscv_soc_top.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/rom.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/divider.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_commit.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_alu_datapath.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/gpr_reg.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/gpio.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/gen_buf.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/ifu_idu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/gen_dff.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/uart.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/csr_reg.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/gen_ram.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/ifu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/pipe_ctrl.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/idu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/defines.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_muldiv.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/debug/jtag_dm.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/rst_ctrl.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/debug/jtag_top.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_dispatch.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/clint.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/exu_mem.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/vld_rdy.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/full_handshake_tx.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/utils/full_handshake_rx.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/core/idu_exu.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/debug/jtag_driver.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/ram.v /mnt/hdd/Project/rtl_prj/tinyriscv/rtl/perips/timer.v}
+import_files -force
+import_files -fileset constrs_1 -force -norecurse /mnt/hdd/Project/rtl_prj/tinyriscv/fpga/constrs/tinyriscv.xdc
+set_property compxlib.vcs_compiled_library_dir /mnt/hdd/Xilinx2023_2/Vivado/2023.2 [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+close_design
+open_run impl_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {151.636} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {50.000} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.000} \
+] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+set_property generate_synth_checkpoint false [get_files  /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+generate_target all [get_files  /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+export_ip_user_files -of_objects [get_files /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.ip_user_files/sim_scripts -ip_user_files_dir /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.ip_user_files -ipstatic_source_dir /mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.ip_user_files/ipstatic -lib_map_path [list {modelsim=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/modelsim} {questa=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/questa} {xcelium=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/xcelium} {vcs=/mnt/hdd/Xilinx2023_2/Vivado/2023.2} {riviera=/mnt/hdd/Project/rtl_prj/tinyriscv/xilinx/xilinx.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
