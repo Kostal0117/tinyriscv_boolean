@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-| Date             : Tue Dec 12 20:54:46 2023
+| Date             : Fri Dec 15 20:13:01 2023
 | Host             : kostal-701PC running 64-bit Ubuntu 20.04.6 LTS
 | Command          : report_power -file tinyriscv_soc_top_power_routed.rpt -pb tinyriscv_soc_top_power_summary_routed.pb -rpx tinyriscv_soc_top_power_routed.rpx
 | Design           : tinyriscv_soc_top
@@ -53,14 +53,14 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.005 |        5 |       --- |             --- |
-| Slice Logic    |     0.002 |     7853 |       --- |             --- |
-|   LUT as Logic |     0.002 |     3675 |     32600 |           11.27 |
+| Slice Logic    |     0.002 |     7852 |       --- |             --- |
+|   LUT as Logic |     0.002 |     3678 |     32600 |           11.28 |
 |   CARRY4       |    <0.001 |      160 |      8150 |            1.96 |
 |   Register     |    <0.001 |     2916 |     65200 |            4.47 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   F7/F8 Muxes  |    <0.001 |      261 |     32600 |            0.80 |
 |   Others       |     0.000 |       79 |       --- |             --- |
-| Signals        |     0.003 |     6449 |       --- |             --- |
+| Signals        |     0.003 |     6467 |       --- |             --- |
 | Block RAM      |     0.012 |       12 |        75 |           16.00 |
 | MMCM           |     0.106 |        1 |         5 |           20.00 |
 | DSPs           |    <0.001 |        4 |       120 |            3.33 |
@@ -152,9 +152,9 @@ Table of Contents
 |     u_gen_ram      |     0.004 |
 |   u_rom            |     0.008 |
 |     u_gen_ram      |     0.008 |
-|   u_tinyriscv_core |     0.007 |
-|     u_exu          |     0.001 |
-|       u_exu_muldiv |     0.001 |
+|   u_tinyriscv_core |     0.008 |
+|     u_exu          |     0.002 |
+|       u_exu_muldiv |     0.002 |
 |     u_gpr_reg      |     0.002 |
 |     u_idu_exu      |     0.003 |
 |       info_bus_ff  |     0.003 |

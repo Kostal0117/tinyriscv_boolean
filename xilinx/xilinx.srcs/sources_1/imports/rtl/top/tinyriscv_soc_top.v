@@ -179,7 +179,7 @@ module tinyriscv_soc_top(
 
     // 低电平点亮LED
     // 低电平表示已经halt住CPU
-    assign halted_ind = ~jtag_halt_req_o;
+    assign halted_ind = jtag_halt_req_o;
 
     // tinyriscv处理器核模块例化
     tinyriscv_core u_tinyriscv_core(

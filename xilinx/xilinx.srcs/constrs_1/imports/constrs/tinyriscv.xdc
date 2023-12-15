@@ -32,21 +32,21 @@ set_property PACKAGE_PIN U2 [get_ports {gpio[1]}]
 
 # JTAG TCK引脚
 set_property IOSTANDARD LVCMOS33 [get_ports jtag_TCK]
-set_property PACKAGE_PIN R7 [get_ports jtag_TCK]
+set_property PACKAGE_PIN C18 [get_ports jtag_TCK]
 
 #create_clock -name jtag_clk_pin -period 300 [get_ports {jtag_TCK}];
 
 # JTAG TMS引脚
 set_property IOSTANDARD LVCMOS33 [get_ports jtag_TMS]
-set_property PACKAGE_PIN R6 [get_ports jtag_TMS]
+set_property PACKAGE_PIN E18 [get_ports jtag_TMS]
 
 # JTAG TDI引脚
 set_property IOSTANDARD LVCMOS33 [get_ports jtag_TDI]
-set_property PACKAGE_PIN P6 [get_ports jtag_TDI]
+set_property PACKAGE_PIN G18 [get_ports jtag_TDI]
 
 # JTAG TDO引脚
 set_property IOSTANDARD LVCMOS33 [get_ports jtag_TDO]
-set_property PACKAGE_PIN P5 [get_ports jtag_TDO]
+set_property PACKAGE_PIN H18 [get_ports jtag_TDO]
 
 set_property BITSTREAM.CONFIG.SPI_BUSWIDTH 4 [current_design]  
 set_property CONFIG_MODE SPIx4 [current_design] 
